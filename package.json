@@ -1,0 +1,28 @@
+{
+  "name": "tfjs-yolo-demo",
+  "version": "0.0.1",
+  "description": "tfjs-yolo-demo",
+  "main": "dist/index.html",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "author": "shaqian",
+  "license": "MIT",
+  "devDependencies": {
+    "@tensorflow/tfjs": "^0.13.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "tfjs-yolo": "^0.0.1"
+  }
+}
