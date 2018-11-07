@@ -123,7 +123,7 @@ async function run() {
   if (myYolo) {
     let threshold = .3;
     if (selected == v3tiny)
-      threshold = .1;
+      threshold = .2;
     else if (selected == v3)
       interval = 10;
     await predict(threshold);
